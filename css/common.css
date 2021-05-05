@@ -357,7 +357,7 @@ body {
     width: 50%;
     padding-left: 330px;
   }
-  
+
   .insta_logo {
     width: 20%;
     padding-left: 150px;
@@ -366,6 +366,11 @@ body {
   .button:hover {
     cursor: pointer;
     }
+
+  .sns p {
+    text-align: center;
+    padding: 30px;
+  }
   
   .bottom {
     background-color: #3c2b1b;
