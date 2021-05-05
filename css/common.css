@@ -1,0 +1,375 @@
+@charset "UTF-8";
+
+body {
+    font-family: 'Kiwi Maru', serif;
+  }    
+
+body {
+    font-size: 15px;
+    line-height: 1.8;
+    letter-spacing: 1px;
+    word-break: break-all;
+    color: #333;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  li {
+    list-style: none;
+  }
+
+  .header_all {
+    width: 100%;
+    background-color: #fff9f5; 
+  }
+
+  .inner {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+
+  .header_nav ul {
+    width: 100%;
+    display: table;
+    table-layout: fixed;
+  }
+  
+  .header_nav ul li {
+    display: table-cell;
+  }
+
+  .header_nav ul li a {
+    display: block;
+    margin: 25px;
+    padding: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .header_nav ul li a:hover {
+    color: #deb068;
+    border-bottom: solid 2px #ccc;
+  }
+  
+  .header_nav ul li a span {
+    display: block;
+    margin-top: 5px;
+    font-size: 10px;
+  }
+
+  .top_all {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    background: url("../img/top.jpg") no-repeat center;
+    background-size: cover;
+  }
+
+  .top_all::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.25);
+  }
+
+  .top_inner {
+    position: absolute;
+    text-align: center;
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .top_inner h1 {
+    font-size: 60px;
+    font-weight: 500;
+    color: #ddd;
+  }
+  
+  .top_inner p {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ddd;
+  }
+
+  .section {
+    padding: 150px 0;
+    border-top: solid 3px #fe9;
+  }
+  
+  .section:nth-of-type(even) {
+    background-color: #fff9f5;
+  }
+
+  .news {
+      margin: 50px 0;
+      text-align: center;
+      }
+    
+   .news_title {
+    display: inline;
+    width: 100%;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    line-height: 1.4;
+    font-size: 40px;
+    font-weight: bold;
+    color: #cbaf72;
+    border-left: solid 2px #cbaf72;
+    padding-bottom: 30px;
+   }
+
+   .news_title span {
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+  }
+
+   .news_txt {
+    border: 2px dotted ;
+    border-radius: 5px;
+    width: 30%;
+    margin: 50px auto;
+    padding: 15px;
+    font-size: 20px;
+    font-family: 'Kiwi Maru',
+    }
+  
+  .news_txt p {
+    line-height: 50px;
+  }
+
+  .about_img {
+    position: relative;
+  }
+  
+  .about_img::after {
+    content: "";
+    position: absolute;
+    background: url("../img/about1.png") no-repeat center;
+    background-size: cover;
+    top: 30px;
+    left: 53%;
+    width: 45%;
+    height: 90%;
+       
+  }
+  
+  .concept_img {
+    position: relative;
+    
+  }
+  
+  .concept_img::after {
+    content: "";
+    position: absolute;
+    background: url("../img/menu.jpg") no-repeat center;
+    background-size: cover;
+    top: 30px;
+    right: 53%;
+    width: 45%;
+    height: 70%;
+  }
+
+  .descript {
+    width: 40%;
+    height: 50%;
+  }
+  
+  .descript_right {
+    margin-left: 60%;
+  }
+
+  .title {
+    display: block;
+    width: 100%;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    line-height: 1.4;
+    font-size: 40px;
+    font-weight: bold;
+    color: #cbaf72;
+    border-left: solid 2px #cbaf72;
+  }
+  
+  .title span {
+    display: block;
+    font-size: 20px;
+    font-weight: normal;
+    color: black;
+  }
+
+  
+
+  .txt h3 {
+    font-size: 30px;
+    color: #d0b77f;
+    margin-bottom: 30px;
+  }
+  
+  .txt p {
+    color: #555;
+  }
+
+  .txt p a {
+      color: #e9bc00;
+  }
+  
+  .txt p strong {
+    font-weight: bold;
+    color: #555;
+    background: linear-gradient(transparent 60%, #fe9);
+  }
+
+  .frame {
+    width: 80%;
+    height: 100%;
+    background-color: white;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 40px;
+  }
+
+  .txt h3 span {
+    display: block;
+    font-size: 20px;
+    color: #d0b77f;
+  }
+
+  .sub_title {
+    position: relative;
+    font-size: 18px;
+    color: #333;
+    padding: 10px 0;
+  }
+  
+  .sub_title::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    z-index: 1;
+    background-color: #333;
+    width: 40%;
+    height: 2px;
+    margin-top: -1px;
+  }
+  
+  .sub_title span {
+    position: relative;
+    padding-right: 10px;
+  }
+
+  .photo {
+    width: 430px;
+    height: 300px;
+  }
+
+  .price {
+    font-size: 17px;
+    color: black;
+    padding-top: 15px;
+  }
+  
+  .price span {
+    margin-right: 5px;
+    font-style: italic;
+    font-size: 20px;
+  }
+  
+  .price em {
+    font-style: italic;
+    font-size: 45px;
+  }
+
+  .frame_all { 
+    display: flex; 
+  }
+  
+  .frame_profile {
+    display: inline-table;
+    width: 35%;
+    height: 100%;
+    background-color: #eee;
+    border-radius: 5px;
+    margin: 30px;
+    padding: 40px;
+  }
+  
+  .profile_bg { 
+    background-color: #fff; 
+    height: 460px; 
+  }
+
+  .intro {
+    display: flex;
+  }
+  
+  .intro_img {
+    padding-right: 40px;
+  }
+
+  .txt ul {
+    padding: 10px;
+  }
+  
+  .txt ul li {
+    position: relative;
+    padding-left: 20px;
+    margin-top: 5px;
+  }
+  
+  .txt ul li:before {
+    content: "●";
+    position: absolute;
+    left: 0;
+    color: #555;
+  }
+
+  .txt table th {
+    padding-right: 10px;
+    border-right: solid 3px #fe9;
+  }
+  
+  .txt table td {
+    padding-left: 10px;
+  }
+
+
+  .button {
+    display: flex;
+    margin: 30px;
+    
+  }
+
+  .twitter_logo{
+    width: 50%;
+    padding-left: 330px;
+  }
+  
+  .insta_logo {
+    width: 20%;
+    padding-left: 150px;
+  }
+  
+  .button:hover {
+    cursor: pointer;
+    }
+  
+  .bottom {
+    background-color: #3c2b1b;
+    padding: 30px 0;
+    text-align: center;
+    color: #eee;
+  }
