@@ -2,7 +2,7 @@
 
 body {
     font-family: 'Kiwi Maru', serif;
-  }    
+}    
 
 body {
     font-size: 15px;
@@ -10,7 +10,7 @@ body {
     letter-spacing: 1px;
     word-break: break-all;
     color: #333;
-  }
+    }
   
   a {
     text-decoration: none;
